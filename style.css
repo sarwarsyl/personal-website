@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-sarif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img, .three-column img{
+    width: 100%;
+}
+.hero-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+section{
+    height:500px;
+    padding-bottom: 150px;
+    padding-top: 80px;
+}
+.margin-top-50{
+    margin-top: 50px;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
+.font-weight{
+    font-weight: 400;
+}
+.highlight-color{
+    color: #EC4C78;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.half-width p{
+    margin-bottom: 50px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #EC4C78;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+.biography-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 300px;
+}
+.three-column{
+    width: 30%;
+    float: left;
+    margin-left: 1%;
+    padding-left: 1.5%;
+    margin-top: 30px;
+}
+.ltestwork-area h2{
+    text-align: center;
+    font-weight: 500;
+}
+.ltestwork-area{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.clients-feedback{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+.designation{
+    margin-top: -20px;
+    font-size: 12px;
+}
+.call-to-action{
+    background-color: #EC4C78;
+    
+    text-align: center;
+    color: #fff;
+    margin: 100px 400px;
+    border-radius: 5px;
+    padding: 20px 30px;
+}
+.call-to-action p{
+    color: #fff;
+    margin-bottom: -10px;
+    font-size: 12px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
